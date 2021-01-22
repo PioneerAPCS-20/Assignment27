@@ -63,6 +63,15 @@ Output:
 15  30  45
 ```
 
+*Other Hints:*
+
+* Remember that you can only print from the top down (and left to right). You have to start by making the top of the graph first.
+
+* For the y-axis values, start with something a little bigger than the largest value (side with the most rolls). Do 10 values on the y-axis, which means each step is the first y-value divided by 10. This works really well if the top value is a multiple of 10 (like in my examples below), but it is not required.
+
+* As you go through to print the bars on the graph, you will print a * if that value is there, but also make sure to print a space if you don't need to print an asterisk. This will make sure that all of the columns line up correctly.
+
+
 ### Sample Outputs
 
 ```
